@@ -9,7 +9,7 @@
 }
 .history-header {
   width: 100%;
-  height: auto;
+  height: 100px;
   display: flex;
   position: relative;
   max-width: auto;
