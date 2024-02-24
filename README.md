@@ -1,1 +1,1 @@
-# longpantsxyz-HTML
+# longpants.xyz
