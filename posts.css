@@ -111,6 +111,12 @@
 .all-posts-navlink5 {
   text-decoration: underline;
 }
+.all-posts-text5 {
+  text-decoration: underline;
+}
+.all-posts-navlink6 {
+  text-decoration: underline;
+}
 @media(max-width: 991px) {
   .all-posts-title-date-body {
     left: 0px;
@@ -146,6 +152,16 @@
     font-size: 17px;
     font-family: Courier New;
   }
+  .all-posts-navlink5 {
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    font-family: Courier New;
+  }
+  .all-posts-text5 {
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    font-family: Courier New;
+  }
 }
 @media(max-width: 767px) {
   .all-posts-header {
@@ -177,6 +193,16 @@
     font-family: Courier New;
   }
   .all-posts-text4 {
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    font-family: Courier New;
+  }
+  .all-posts-navlink5 {
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    font-family: Courier New;
+  }
+  .all-posts-text5 {
     color: rgb(255, 255, 255);
     font-size: 17px;
     font-family: Courier New;
@@ -224,6 +250,18 @@
     background-color: rgb(0, 0, 0);
   }
   .all-posts-text4 {
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    font-family: Courier New;
+    background-color: rgb(0, 0, 0);
+  }
+  .all-posts-navlink5 {
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    font-family: Courier New;
+    background-color: rgb(0, 0, 0);
+  }
+  .all-posts-text5 {
     color: rgb(255, 255, 255);
     font-size: 17px;
     font-family: Courier New;
