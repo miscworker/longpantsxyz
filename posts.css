@@ -1,3 +1,77 @@
+.header-header {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  position: relative;
+  max-width: auto;
+  min-height: 100%;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: #000000;
+}
+.header-contact {
+  color: rgb(255, 255, 255);
+  right: 0px;
+  position: absolute;
+  font-size: 18px;
+  align-self: flex-start;
+  margin-top: 1%;
+  font-family: "Courier New";
+  margin-right: 1%;
+}
+.header-contact1 {
+  top: 0px;
+  color: rgb(255, 255, 255);
+  right: 0px;
+  position: absolute;
+  font-size: 18px;
+  align-self: flex-start;
+  margin-top: 3%;
+  font-family: "Courier New";
+  margin-right: 1%;
+}
+.header-navlink {
+  text-decoration: underline;
+}
+.header-navlink1 {
+  text-decoration: underline;
+}
+.header-navlink2 {
+  text-decoration: underline;
+}
+
+
+
+@media(max-width: 767px) {
+  .header-header {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+}
+@media(max-width: 479px) {
+  .header-header {
+    padding: var(--dl-space-space-unit);
+  }
+  .header-contact {
+    left: 57px;
+    color: rgb(255, 255, 255);
+    bottom: -53px;
+    position: static;
+    font-size: 18px;
+    text-align: center;
+    font-family: Courier New;
+  }
+  .header-contact1 {
+    left: 57px;
+    color: rgb(255, 255, 255);
+    bottom: -53px;
+    position: static;
+    font-size: 18px;
+    text-align: center;
+    font-family: Courier New;
+  }
+}
+
 .all-posts-container {
   width: 100%;
   display: flex;
@@ -10,7 +84,7 @@
 .all-posts-header {
   width: 100%;
   height: 100px;
-  display: flex;
+  display: none;
   position: relative;
   max-width: auto;
   min-height: 100%;
@@ -91,8 +165,18 @@
   margin-left: 10px;
   margin-right: 10px;
   margin-bottom: 10px;
-  text-decoration: underline;
   background-color: rgb(0, 0, 0);
+}
+.all-posts-navlink2 {
+  line-height: 1.5;
+  text-decoration: underline;
+}
+.all-posts-text1 {
+  line-height: 1.5;
+}
+.all-posts-navlink3 {
+  line-height: 1.5;
+  text-decoration: underline;
 }
 @media(max-width: 991px) {
   .all-posts-title-date-body {
@@ -109,6 +193,11 @@
     font-size: 17px;
     font-family: Courier New;
   }
+  .all-posts-navlink2 {
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    font-family: Courier New;
+  }
 }
 @media(max-width: 767px) {
   .all-posts-header {
@@ -120,6 +209,11 @@
     height: auto;
   }
   .all-posts-body {
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    font-family: Courier New;
+  }
+  .all-posts-navlink2 {
     color: rgb(255, 255, 255);
     font-size: 17px;
     font-family: Courier New;
@@ -152,6 +246,12 @@
     margin-right: auto;
   }
   .all-posts-body {
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    font-family: Courier New;
+    background-color: rgb(0, 0, 0);
+  }
+  .all-posts-navlink2 {
     color: rgb(255, 255, 255);
     font-size: 17px;
     font-family: Courier New;

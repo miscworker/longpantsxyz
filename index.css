@@ -1,14 +1,4 @@
-.longpantsxyz-container {
-  width: 100%;
-  display: flex;
-  overflow: hidden;
-  min-height: 100vh;
-  align-items: center;
-  flex-direction: column;
-  justify-content: flex-start;
-  background-color: #000000;
-}
-.longpantsxyz-header {
+.header-header {
   width: 100%;
   height: 100px;
   display: flex;
@@ -17,8 +7,9 @@
   min-height: 100%;
   align-items: center;
   justify-content: flex-start;
+  background-color: #000000;
 }
-.longpantsxyz-contact {
+.header-contact {
   color: rgb(255, 255, 255);
   right: 0px;
   position: absolute;
@@ -28,7 +19,7 @@
   font-family: "Courier New";
   margin-right: 1%;
 }
-.longpantsxyz-contact1 {
+.header-contact1 {
   top: 0px;
   color: rgb(255, 255, 255);
   right: 0px;
@@ -39,14 +30,57 @@
   font-family: "Courier New";
   margin-right: 1%;
 }
-.longpantsxyz-navlink {
+.header-navlink {
   text-decoration: underline;
 }
-.longpantsxyz-navlink1 {
+.header-navlink1 {
   text-decoration: underline;
 }
-.longpantsxyz-navlink2 {
+.header-navlink2 {
   text-decoration: underline;
+}
+
+
+
+@media(max-width: 767px) {
+  .header-header {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+}
+@media(max-width: 479px) {
+  .header-header {
+    padding: var(--dl-space-space-unit);
+  }
+  .header-contact {
+    left: 57px;
+    color: rgb(255, 255, 255);
+    bottom: -53px;
+    position: static;
+    font-size: 18px;
+    text-align: center;
+    font-family: Courier New;
+  }
+  .header-contact1 {
+    left: 57px;
+    color: rgb(255, 255, 255);
+    bottom: -53px;
+    position: static;
+    font-size: 18px;
+    text-align: center;
+    font-family: Courier New;
+  }
+}
+
+.longpantsxyz-container {
+  width: 100%;
+  display: flex;
+  overflow: hidden;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: #000000;
 }
 .longpantsxyz-post-setup {
   flex: 0 0 auto;
@@ -69,15 +103,6 @@
   border-color: #ffffff;
   border-width: 3px;
   flex-direction: column;
-}
-.longpantsxyz-post-heading {
-  color: rgb(255, 255, 255);
-  font-size: 35px;
-  align-self: flex-start;
-  margin-top: 10px;
-  font-family: "Courier New";
-  margin-left: 10px;
-  text-transform: capitalize;
 }
 .longpantsxyz-date-posted {
   color: rgb(255, 255, 255);
@@ -104,6 +129,84 @@
   margin-bottom: 10px;
   background-color: rgb(0, 0, 0);
 }
+.longpantsxyz-text04 {
+  color: #ffffff;
+  font-size: 17px;
+  font-family: "Courier New";
+  background-color: rgb(0, 0, 0);
+}
+.longpantsxyz-text07 {
+  color: #ffffff;
+  font-size: 17px;
+  font-family: "Courier New";
+  background-color: rgb(0, 0, 0);
+}
+.longpantsxyz-text10 {
+  color: #ffffff;
+  font-size: 17px;
+  font-family: "Courier New";
+  background-color: rgb(0, 0, 0);
+}
+.longpantsxyz-text13 {
+  color: #ffffff;
+  font-size: 17px;
+  font-family: "Courier New";
+  background-color: rgb(0, 0, 0);
+}
+.longpantsxyz-text16 {
+  color: #ffffff;
+  font-size: 17px;
+  font-family: "Courier New";
+  background-color: rgb(0, 0, 0);
+}
+.longpantsxyz-text19 {
+  color: #ffffff;
+  font-size: 17px;
+  font-family: "Courier New";
+  background-color: rgb(0, 0, 0);
+}
+.longpantsxyz-text22 {
+  color: #ffffff;
+  font-size: 17px;
+  font-family: "Courier New";
+  background-color: rgb(0, 0, 0);
+}
+.longpantsxyz-text25 {
+  color: #ffffff;
+  font-size: 17px;
+  font-family: "Courier New";
+  background-color: rgb(0, 0, 0);
+}
+.longpantsxyz-text28 {
+  color: #ffffff;
+  font-size: 17px;
+  font-family: "Courier New";
+  background-color: rgb(0, 0, 0);
+}
+.longpantsxyz-text31 {
+  color: #ffffff;
+  font-size: 17px;
+  font-family: "Courier New";
+  background-color: rgb(0, 0, 0);
+}
+.longpantsxyz-text34 {
+  color: #ffffff;
+  font-size: 17px;
+  font-family: "Courier New";
+  background-color: rgb(0, 0, 0);
+}
+.longpantsxyz-text37 {
+  color: #ffffff;
+  font-size: 17px;
+  font-family: "Courier New";
+  background-color: rgb(0, 0, 0);
+}
+.longpantsxyz-text40 {
+  color: #ffffff;
+  font-size: 17px;
+  font-family: "Courier New";
+  background-color: rgb(0, 0, 0);
+}
 @media(max-width: 991px) {
   .longpantsxyz-title-date-body {
     left: 0px;
@@ -121,10 +224,6 @@
   }
 }
 @media(max-width: 767px) {
-  .longpantsxyz-header {
-    padding-left: var(--dl-space-space-twounits);
-    padding-right: var(--dl-space-space-twounits);
-  }
   .longpantsxyz-title-date-body {
     width: 90%;
     height: auto;
@@ -136,27 +235,6 @@
   }
 }
 @media(max-width: 479px) {
-  .longpantsxyz-header {
-    padding: var(--dl-space-space-unit);
-  }
-  .longpantsxyz-contact {
-    left: 57px;
-    color: rgb(255, 255, 255);
-    bottom: -53px;
-    position: static;
-    font-size: 18px;
-    text-align: center;
-    font-family: Courier New;
-  }
-  .longpantsxyz-contact1 {
-    left: 57px;
-    color: rgb(255, 255, 255);
-    bottom: -53px;
-    position: static;
-    font-size: 18px;
-    text-align: center;
-    font-family: Courier New;
-  }
   .longpantsxyz-title-date-body {
     height: auto;
     margin-right: auto;

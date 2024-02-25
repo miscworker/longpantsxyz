@@ -72,7 +72,7 @@
   }
 }
 
-.introduction-container {
+.post-template1-container {
   width: 100%;
   display: flex;
   overflow: hidden;
@@ -82,16 +82,17 @@
   justify-content: flex-start;
   background-color: #000000;
 }
-.introduction-post-setup {
+.post-template1-post-setup {
   flex: 0 0 auto;
   width: 100%;
   height: auto;
   display: flex;
+  position: relative;
   align-self: flex-start;
   margin-bottom: 10%;
   flex-direction: column;
 }
-.introduction-title-date-body {
+.post-template1-title-date-body {
   flex: 0 0 auto;
   width: 631px;
   height: min-content;
@@ -104,7 +105,7 @@
   border-width: 3px;
   flex-direction: column;
 }
-.introduction-post-heading {
+.post-template1-post-heading {
   color: rgb(255, 255, 255);
   font-size: 35px;
   align-self: flex-start;
@@ -113,21 +114,21 @@
   margin-left: 10px;
   text-transform: capitalize;
 }
-.introduction-date-posted {
+.post-template1-date-posted {
   color: rgb(255, 255, 255);
   font-size: 20px;
   margin-top: 10px;
   font-family: "Courier New";
   margin-left: 10px;
 }
-.introduction-container1 {
+.post-template1-container1 {
   flex: 0 0 auto;
   width: 100%;
   display: flex;
   align-items: flex-start;
   flex-direction: column;
 }
-.introduction-body {
+.post-template1-body {
   color: rgb(255, 255, 255);
   font-size: 17px;
   align-self: flex-start;
@@ -139,7 +140,7 @@
   background-color: rgb(0, 0, 0);
 }
 @media(max-width: 991px) {
-  .introduction-title-date-body {
+  .post-template1-title-date-body {
     left: 0px;
     right: 0px;
     width: 80%;
@@ -148,29 +149,29 @@
     margin-right: auto;
     margin-bottom: 20%;
   }
-  .introduction-body {
+  .post-template1-body {
     color: rgb(255, 255, 255);
     font-size: 17px;
     font-family: Courier New;
   }
 }
 @media(max-width: 767px) {
-  .introduction-title-date-body {
+  .post-template1-title-date-body {
     width: 90%;
     height: auto;
   }
-  .introduction-body {
+  .post-template1-body {
     color: rgb(255, 255, 255);
     font-size: 17px;
     font-family: Courier New;
   }
 }
 @media(max-width: 479px) {
-  .introduction-title-date-body {
+  .post-template1-title-date-body {
     height: auto;
     margin-right: auto;
   }
-  .introduction-body {
+  .post-template1-body {
     color: rgb(255, 255, 255);
     font-size: 17px;
     font-family: Courier New;
