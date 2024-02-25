@@ -30,13 +30,13 @@
   font-family: "Courier New";
   margin-right: 1%;
 }
+.header-link {
+  text-decoration: underline;
+}
 .header-navlink {
   text-decoration: underline;
 }
 .header-navlink1 {
-  text-decoration: underline;
-}
-.header-navlink2 {
   text-decoration: underline;
 }
 
