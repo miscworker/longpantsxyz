@@ -10,7 +10,6 @@
 .all-posts-header {
   width: 100%;
   height: 100px;
-  display: none;
   position: relative;
   max-width: auto;
   min-height: 100%;
@@ -38,16 +37,19 @@
   font-family: "Courier New";
   margin-right: 1%;
 }
-.all-posts-navlink {
+.all-posts-link {
   text-decoration: underline;
 }
-.all-posts-navlink1 {
+.all-posts-link01 {
+  text-decoration: underline;
+}
+.all-posts-link02 {
   text-decoration: underline;
 }
 .all-posts-header1 {
   width: 100%;
   height: 100px;
-  display: flex;
+  display: none;
   position: relative;
   max-width: auto;
   min-height: 100%;
@@ -76,19 +78,19 @@
   font-family: "Courier New";
   margin-right: 1%;
 }
-.all-posts-link {
+.all-posts-link03 {
   text-decoration: underline;
 }
-.all-posts-text1 {
+.all-posts-text2 {
   text-decoration: underline;
 }
-.all-posts-link1 {
+.all-posts-link04 {
   text-decoration: underline;
 }
-.all-posts-link2 {
+.all-posts-link05 {
   text-decoration: underline;
 }
-.all-posts-link3 {
+.all-posts-link06 {
   text-decoration: underline;
 }
 .all-posts-post-setup {
@@ -140,18 +142,18 @@
   margin-bottom: 10px;
   background-color: rgb(0, 0, 0);
 }
-.all-posts-link4 {
+.all-posts-link07 {
   line-height: 1.5;
   text-decoration: underline;
 }
-.all-posts-link5 {
+.all-posts-link08 {
   line-height: 1.5;
   text-decoration: underline;
 }
-.all-posts-text4 {
+.all-posts-text5 {
   line-height: 1.5;
 }
-.all-posts-link6 {
+.all-posts-link09 {
   line-height: 1.5;
   text-decoration: underline;
 }
@@ -170,12 +172,12 @@
     font-size: 17px;
     font-family: Courier New;
   }
-  .all-posts-link4 {
+  .all-posts-link07 {
     color: rgb(255, 255, 255);
     font-size: 17px;
     font-family: Courier New;
   }
-  .all-posts-link5 {
+  .all-posts-link08 {
     color: rgb(255, 255, 255);
     font-size: 17px;
     font-family: Courier New;
@@ -199,12 +201,12 @@
     font-size: 17px;
     font-family: Courier New;
   }
-  .all-posts-link4 {
+  .all-posts-link07 {
     color: rgb(255, 255, 255);
     font-size: 17px;
     font-family: Courier New;
   }
-  .all-posts-link5 {
+  .all-posts-link08 {
     color: rgb(255, 255, 255);
     font-size: 17px;
     font-family: Courier New;
@@ -263,13 +265,13 @@
     font-family: Courier New;
     background-color: rgb(0, 0, 0);
   }
-  .all-posts-link4 {
+  .all-posts-link07 {
     color: rgb(255, 255, 255);
     font-size: 17px;
     font-family: Courier New;
     background-color: rgb(0, 0, 0);
   }
-  .all-posts-link5 {
+  .all-posts-link08 {
     color: rgb(255, 255, 255);
     font-size: 17px;
     font-family: Courier New;
