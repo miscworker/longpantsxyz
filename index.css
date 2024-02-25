@@ -34,16 +34,18 @@
   font-size: 18px;
   align-self: flex-start;
   margin-top: 50px;
+  text-align: right;
   font-family: "Courier New";
+  line-height: 1.5;
   margin-right: 20px;
 }
-.longpantsxyz-navlink {
+.longpantsxyz-link {
   text-decoration: underline;
 }
-.longpantsxyz-navlink1 {
+.longpantsxyz-link1 {
   text-decoration: underline;
 }
-.longpantsxyz-navlink2 {
+.longpantsxyz-link2 {
   text-decoration: underline;
 }
 .longpantsxyz-post-setup {
@@ -219,10 +221,20 @@
     left: 0px;
     color: rgb(255, 255, 255);
     right: 0px;
-    margin: auto;
+    margin: 35px;
     font-size: 18px;
     text-align: center;
     font-family: Courier New;
+    line-height: 1.5;
+  }
+  .longpantsxyz-link {
+    text-decoration: underline;
+  }
+  .longpantsxyz-link1 {
+    text-decoration: underline;
+  }
+  .longpantsxyz-link2 {
+    text-decoration: underline;
   }
   .longpantsxyz-title-date-body {
     height: auto;
