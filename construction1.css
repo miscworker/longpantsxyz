@@ -27,28 +27,21 @@
   font-family: "Courier New";
   margin-right: 20px;
 }
-.template1-contact1 {
+.template1-text {
+  top: 53px;
   color: rgb(255, 255, 255);
-  right: 0px;
+  right: 20px;
   position: absolute;
   font-size: 18px;
-  align-self: flex-start;
-  margin-top: 50px;
-  text-align: right;
   font-family: "Courier New";
-  line-height: 1.5;
-  margin-right: 20px;
 }
-.template1-link {
+.template1-navlink {
   text-decoration: underline;
 }
-.template1-link1 {
+.template1-navlink1 {
   text-decoration: underline;
 }
-.template1-text1 {
-  text-decoration: underline;
-}
-.template1-link2 {
+.template1-navlink2 {
   text-decoration: underline;
 }
 .template1-post-setup {
@@ -151,28 +144,6 @@
     font-size: 18px;
     text-align: center;
     font-family: Courier New;
-  }
-  .template1-contact1 {
-    left: 0px;
-    color: rgb(255, 255, 255);
-    right: 0px;
-    margin: 35px;
-    font-size: 18px;
-    text-align: center;
-    font-family: Courier New;
-    line-height: 1.5;
-  }
-  .template1-link {
-    text-decoration: underline;
-  }
-  .template1-link1 {
-    text-decoration: underline;
-  }
-  .template1-text1 {
-    text-decoration: underline;
-  }
-  .template1-link2 {
-    text-decoration: underline;
   }
   .template1-title-date-body {
     height: auto;

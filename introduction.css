@@ -27,28 +27,21 @@
   font-family: "Courier New";
   margin-right: 20px;
 }
-.introduction-contact1 {
+.introduction-text {
+  top: 53px;
   color: rgb(255, 255, 255);
-  right: 0px;
+  right: 20px;
   position: absolute;
   font-size: 18px;
-  align-self: flex-start;
-  margin-top: 50px;
-  text-align: right;
   font-family: "Courier New";
-  line-height: 1.5;
-  margin-right: 20px;
 }
-.introduction-link {
+.introduction-navlink {
   text-decoration: underline;
 }
-.introduction-link1 {
+.introduction-navlink1 {
   text-decoration: underline;
 }
-.introduction-text01 {
-  text-decoration: underline;
-}
-.introduction-link2 {
+.introduction-navlink2 {
   text-decoration: underline;
 }
 .introduction-post-setup {
@@ -150,28 +143,6 @@
     font-size: 18px;
     text-align: center;
     font-family: Courier New;
-  }
-  .introduction-contact1 {
-    left: 0px;
-    color: rgb(255, 255, 255);
-    right: 0px;
-    margin: 35px;
-    font-size: 18px;
-    text-align: center;
-    font-family: Courier New;
-    line-height: 1.5;
-  }
-  .introduction-link {
-    text-decoration: underline;
-  }
-  .introduction-link1 {
-    text-decoration: underline;
-  }
-  .introduction-text01 {
-    text-decoration: underline;
-  }
-  .introduction-link2 {
-    text-decoration: underline;
   }
   .introduction-title-date-body {
     height: auto;
