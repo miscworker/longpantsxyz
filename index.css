@@ -1,4 +1,14 @@
-.header-header {
+.longpantsxyz-container {
+  width: 100%;
+  display: flex;
+  overflow: hidden;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: #000000;
+}
+.longpantsxyz-header {
   width: 100%;
   height: 100px;
   display: flex;
@@ -9,7 +19,7 @@
   justify-content: flex-start;
   background-color: #000000;
 }
-.header-contact {
+.longpantsxyz-contact {
   color: rgb(255, 255, 255);
   right: 0px;
   position: absolute;
@@ -19,7 +29,7 @@
   font-family: "Courier New";
   margin-right: 1%;
 }
-.header-contact1 {
+.longpantsxyz-contact1 {
   top: 0px;
   color: rgb(255, 255, 255);
   right: 0px;
@@ -30,60 +40,20 @@
   font-family: "Courier New";
   margin-right: 1%;
 }
-.header-link {
+.longpantsxyz-link {
   text-decoration: underline;
 }
-.header-link1 {
+.longpantsxyz-link1 {
   text-decoration: underline;
 }
-.header-link2 {
+.longpantsxyz-link2 {
   text-decoration: underline;
 }
-.header-link3 {
+.longpantsxyz-link3 {
   text-decoration: underline;
 }
-
-
-
-@media(max-width: 767px) {
-  .header-header {
-    padding-left: var(--dl-space-space-twounits);
-    padding-right: var(--dl-space-space-twounits);
-  }
-}
-@media(max-width: 479px) {
-  .header-header {
-    padding: var(--dl-space-space-unit);
-  }
-  .header-contact {
-    left: 57px;
-    color: rgb(255, 255, 255);
-    bottom: -53px;
-    position: static;
-    font-size: 18px;
-    text-align: center;
-    font-family: Courier New;
-  }
-  .header-contact1 {
-    left: 57px;
-    color: rgb(255, 255, 255);
-    bottom: -53px;
-    position: static;
-    font-size: 18px;
-    text-align: center;
-    font-family: Courier New;
-  }
-}
-
-.longpantsxyz-container {
-  width: 100%;
-  display: flex;
-  overflow: hidden;
-  min-height: 100vh;
-  align-items: center;
-  flex-direction: column;
-  justify-content: flex-start;
-  background-color: #000000;
+.longpantsxyz-link4 {
+  text-decoration: underline;
 }
 .longpantsxyz-post-setup {
   flex: 0 0 auto;
@@ -132,79 +102,79 @@
   margin-bottom: 10px;
   background-color: rgb(0, 0, 0);
 }
-.longpantsxyz-text04 {
+.longpantsxyz-text06 {
   color: #ffffff;
   font-size: 17px;
   font-family: "Courier New";
   background-color: rgb(0, 0, 0);
 }
-.longpantsxyz-text07 {
+.longpantsxyz-text09 {
   color: #ffffff;
   font-size: 17px;
   font-family: "Courier New";
   background-color: rgb(0, 0, 0);
 }
-.longpantsxyz-text10 {
+.longpantsxyz-text12 {
   color: #ffffff;
   font-size: 17px;
   font-family: "Courier New";
   background-color: rgb(0, 0, 0);
 }
-.longpantsxyz-text13 {
+.longpantsxyz-text15 {
   color: #ffffff;
   font-size: 17px;
   font-family: "Courier New";
   background-color: rgb(0, 0, 0);
 }
-.longpantsxyz-text16 {
+.longpantsxyz-text18 {
   color: #ffffff;
   font-size: 17px;
   font-family: "Courier New";
   background-color: rgb(0, 0, 0);
 }
-.longpantsxyz-text19 {
+.longpantsxyz-text21 {
   color: #ffffff;
   font-size: 17px;
   font-family: "Courier New";
   background-color: rgb(0, 0, 0);
 }
-.longpantsxyz-text22 {
+.longpantsxyz-text24 {
   color: #ffffff;
   font-size: 17px;
   font-family: "Courier New";
   background-color: rgb(0, 0, 0);
 }
-.longpantsxyz-text25 {
+.longpantsxyz-text27 {
   color: #ffffff;
   font-size: 17px;
   font-family: "Courier New";
   background-color: rgb(0, 0, 0);
 }
-.longpantsxyz-text28 {
+.longpantsxyz-text30 {
   color: #ffffff;
   font-size: 17px;
   font-family: "Courier New";
   background-color: rgb(0, 0, 0);
 }
-.longpantsxyz-text31 {
+.longpantsxyz-text33 {
   color: #ffffff;
   font-size: 17px;
   font-family: "Courier New";
   background-color: rgb(0, 0, 0);
 }
-.longpantsxyz-text34 {
+.longpantsxyz-text36 {
   color: #ffffff;
   font-size: 17px;
   font-family: "Courier New";
   background-color: rgb(0, 0, 0);
 }
-.longpantsxyz-text37 {
+.longpantsxyz-text39 {
   color: #ffffff;
   font-size: 17px;
   font-family: "Courier New";
   background-color: rgb(0, 0, 0);
 }
-.longpantsxyz-text40 {
+.longpantsxyz-text42 {
   color: #ffffff;
   font-size: 17px;
   font-family: "Courier New";
@@ -227,6 +197,10 @@
   }
 }
 @media(max-width: 767px) {
+  .longpantsxyz-header {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
   .longpantsxyz-title-date-body {
     width: 90%;
     height: auto;
@@ -238,6 +212,27 @@
   }
 }
 @media(max-width: 479px) {
+  .longpantsxyz-header {
+    padding: var(--dl-space-space-unit);
+  }
+  .longpantsxyz-contact {
+    left: 57px;
+    color: rgb(255, 255, 255);
+    bottom: -53px;
+    position: static;
+    font-size: 18px;
+    text-align: center;
+    font-family: Courier New;
+  }
+  .longpantsxyz-contact1 {
+    left: 57px;
+    color: rgb(255, 255, 255);
+    bottom: -53px;
+    position: static;
+    font-size: 18px;
+    text-align: center;
+    font-family: Courier New;
+  }
   .longpantsxyz-title-date-body {
     height: auto;
     margin-right: auto;
