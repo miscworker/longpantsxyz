@@ -30,13 +30,13 @@
   font-family: "Courier New";
   margin-right: 1%;
 }
-.header-navlink {
+.header-link {
   text-decoration: underline;
 }
-.header-navlink1 {
+.header-link1 {
   text-decoration: underline;
 }
-.header-navlink2 {
+.header-link2 {
   text-decoration: underline;
 }
 
@@ -167,14 +167,14 @@
   margin-bottom: 10px;
   background-color: rgb(0, 0, 0);
 }
-.all-posts-navlink2 {
+.all-posts-link {
   line-height: 1.5;
   text-decoration: underline;
 }
 .all-posts-text1 {
   line-height: 1.5;
 }
-.all-posts-navlink3 {
+.all-posts-link1 {
   line-height: 1.5;
   text-decoration: underline;
 }
@@ -193,7 +193,7 @@
     font-size: 17px;
     font-family: Courier New;
   }
-  .all-posts-navlink2 {
+  .all-posts-link {
     color: rgb(255, 255, 255);
     font-size: 17px;
     font-family: Courier New;
@@ -213,7 +213,7 @@
     font-size: 17px;
     font-family: Courier New;
   }
-  .all-posts-navlink2 {
+  .all-posts-link {
     color: rgb(255, 255, 255);
     font-size: 17px;
     font-family: Courier New;
@@ -251,7 +251,7 @@
     font-family: Courier New;
     background-color: rgb(0, 0, 0);
   }
-  .all-posts-navlink2 {
+  .all-posts-link {
     color: rgb(255, 255, 255);
     font-size: 17px;
     font-family: Courier New;
