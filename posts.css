@@ -22,75 +22,32 @@
   position: absolute;
   font-size: 18px;
   align-self: flex-start;
-  margin-top: 1%;
+  margin-top: 15px;
   font-family: "Courier New";
-  margin-right: 1%;
+  margin-right: 20px;
 }
 .all-posts-contact1 {
-  top: 0px;
   color: rgb(255, 255, 255);
   right: 0px;
   position: absolute;
   font-size: 18px;
   align-self: flex-start;
-  margin-top: 3%;
+  margin-top: 50px;
+  text-align: right;
   font-family: "Courier New";
-  margin-right: 1%;
+  line-height: 1.5;
+  margin-right: 20px;
 }
 .all-posts-link {
   text-decoration: underline;
 }
-.all-posts-link01 {
+.all-posts-link1 {
   text-decoration: underline;
 }
-.all-posts-link02 {
+.all-posts-text1 {
   text-decoration: underline;
 }
-.all-posts-header1 {
-  width: 100%;
-  height: 100px;
-  display: none;
-  position: relative;
-  max-width: auto;
-  min-height: 100%;
-  align-items: center;
-  justify-content: flex-start;
-  background-color: #000000;
-}
-.all-posts-contact2 {
-  color: rgb(255, 255, 255);
-  right: 0px;
-  position: absolute;
-  font-size: 18px;
-  align-self: flex-start;
-  margin-top: 1%;
-  font-family: "Courier New";
-  margin-right: 1%;
-}
-.all-posts-contact3 {
-  top: 0px;
-  color: rgb(255, 255, 255);
-  right: 0px;
-  position: absolute;
-  font-size: 18px;
-  align-self: flex-start;
-  margin-top: 3%;
-  font-family: "Courier New";
-  margin-right: 1%;
-}
-.all-posts-link03 {
-  text-decoration: underline;
-}
-.all-posts-text2 {
-  text-decoration: underline;
-}
-.all-posts-link04 {
-  text-decoration: underline;
-}
-.all-posts-link05 {
-  text-decoration: underline;
-}
-.all-posts-link06 {
+.all-posts-link2 {
   text-decoration: underline;
 }
 .all-posts-post-setup {
@@ -142,18 +99,18 @@
   margin-bottom: 10px;
   background-color: rgb(0, 0, 0);
 }
-.all-posts-link07 {
+.all-posts-link3 {
   line-height: 1.5;
   text-decoration: underline;
 }
-.all-posts-link08 {
+.all-posts-link4 {
   line-height: 1.5;
   text-decoration: underline;
 }
-.all-posts-text5 {
+.all-posts-text3 {
   line-height: 1.5;
 }
-.all-posts-link09 {
+.all-posts-link5 {
   line-height: 1.5;
   text-decoration: underline;
 }
@@ -172,12 +129,12 @@
     font-size: 17px;
     font-family: Courier New;
   }
-  .all-posts-link07 {
+  .all-posts-link3 {
     color: rgb(255, 255, 255);
     font-size: 17px;
     font-family: Courier New;
   }
-  .all-posts-link08 {
+  .all-posts-link4 {
     color: rgb(255, 255, 255);
     font-size: 17px;
     font-family: Courier New;
@@ -185,10 +142,6 @@
 }
 @media(max-width: 767px) {
   .all-posts-header {
-    padding-left: var(--dl-space-space-twounits);
-    padding-right: var(--dl-space-space-twounits);
-  }
-  .all-posts-header1 {
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
   }
@@ -201,12 +154,12 @@
     font-size: 17px;
     font-family: Courier New;
   }
-  .all-posts-link07 {
+  .all-posts-link3 {
     color: rgb(255, 255, 255);
     font-size: 17px;
     font-family: Courier New;
   }
-  .all-posts-link08 {
+  .all-posts-link4 {
     color: rgb(255, 255, 255);
     font-size: 17px;
     font-family: Courier New;
@@ -217,43 +170,35 @@
     padding: var(--dl-space-space-unit);
   }
   .all-posts-contact {
-    left: 57px;
+    left: 0px;
     color: rgb(255, 255, 255);
-    bottom: -53px;
-    position: static;
+    right: 0px;
+    margin: auto;
     font-size: 18px;
     text-align: center;
     font-family: Courier New;
   }
   .all-posts-contact1 {
-    left: 57px;
+    left: 0px;
     color: rgb(255, 255, 255);
-    bottom: -53px;
-    position: static;
+    right: 0px;
+    margin: 35px;
     font-size: 18px;
     text-align: center;
     font-family: Courier New;
+    line-height: 1.5;
   }
-  .all-posts-header1 {
-    padding: var(--dl-space-space-unit);
+  .all-posts-link {
+    text-decoration: underline;
   }
-  .all-posts-contact2 {
-    left: 57px;
-    color: rgb(255, 255, 255);
-    bottom: -53px;
-    position: static;
-    font-size: 18px;
-    text-align: center;
-    font-family: Courier New;
+  .all-posts-link1 {
+    text-decoration: underline;
   }
-  .all-posts-contact3 {
-    left: 57px;
-    color: rgb(255, 255, 255);
-    bottom: -53px;
-    position: static;
-    font-size: 18px;
-    text-align: center;
-    font-family: Courier New;
+  .all-posts-text1 {
+    text-decoration: underline;
+  }
+  .all-posts-link2 {
+    text-decoration: underline;
   }
   .all-posts-title-date-body {
     height: auto;
@@ -265,13 +210,13 @@
     font-family: Courier New;
     background-color: rgb(0, 0, 0);
   }
-  .all-posts-link07 {
+  .all-posts-link3 {
     color: rgb(255, 255, 255);
     font-size: 17px;
     font-family: Courier New;
     background-color: rgb(0, 0, 0);
   }
-  .all-posts-link08 {
+  .all-posts-link4 {
     color: rgb(255, 255, 255);
     font-size: 17px;
     font-family: Courier New;
