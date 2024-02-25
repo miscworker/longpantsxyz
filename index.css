@@ -23,20 +23,19 @@
   position: absolute;
   font-size: 18px;
   align-self: flex-start;
-  margin-top: 1%;
+  margin-top: 15px;
   font-family: "Courier New";
-  margin-right: 1%;
+  margin-right: 20px;
 }
 .longpantsxyz-contact1 {
-  top: 0px;
   color: rgb(255, 255, 255);
   right: 0px;
   position: absolute;
   font-size: 18px;
   align-self: flex-start;
-  margin-top: 3%;
+  margin-top: 50px;
   font-family: "Courier New";
-  margin-right: 1%;
+  margin-right: 20px;
 }
 .longpantsxyz-link {
   text-decoration: underline;
@@ -208,19 +207,19 @@
     padding: var(--dl-space-space-unit);
   }
   .longpantsxyz-contact {
-    left: 57px;
+    left: 0px;
     color: rgb(255, 255, 255);
-    bottom: -53px;
-    position: static;
+    right: 0px;
+    margin: auto;
     font-size: 18px;
     text-align: center;
     font-family: Courier New;
   }
   .longpantsxyz-contact1 {
-    left: 57px;
+    left: 0px;
     color: rgb(255, 255, 255);
-    bottom: -53px;
-    position: static;
+    right: 0px;
+    margin: auto;
     font-size: 18px;
     text-align: center;
     font-family: Courier New;
