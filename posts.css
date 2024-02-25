@@ -87,33 +87,25 @@
   align-self: flex-start;
   margin-top: 10px;
   font-family: "Courier New";
+  line-height: 1.5;
   margin-left: 10px;
   margin-right: 10px;
   margin-bottom: 10px;
   background-color: rgb(0, 0, 0);
 }
 .all-posts-navlink3 {
-  line-height: 1.5;
   text-decoration: underline;
 }
 .all-posts-text3 {
-  line-height: 1.5;
   text-decoration: underline;
 }
 .all-posts-navlink4 {
-  line-height: 1.5;
   text-decoration: underline;
 }
 .all-posts-text4 {
-  line-height: 1.5;
   text-decoration: underline;
 }
-.all-posts-text5 {
-  line-height: 1.5;
-  text-decoration: underline;
-}
-.all-posts-link {
-  line-height: 1.5;
+.all-posts-navlink5 {
   text-decoration: underline;
 }
 @media(max-width: 991px) {
@@ -151,16 +143,6 @@
     font-size: 17px;
     font-family: Courier New;
   }
-  .all-posts-text5 {
-    color: rgb(255, 255, 255);
-    font-size: 17px;
-    font-family: Courier New;
-  }
-  .all-posts-link {
-    color: rgb(255, 255, 255);
-    font-size: 17px;
-    font-family: Courier New;
-  }
 }
 @media(max-width: 767px) {
   .all-posts-header {
@@ -192,16 +174,6 @@
     font-family: Courier New;
   }
   .all-posts-text4 {
-    color: rgb(255, 255, 255);
-    font-size: 17px;
-    font-family: Courier New;
-  }
-  .all-posts-text5 {
-    color: rgb(255, 255, 255);
-    font-size: 17px;
-    font-family: Courier New;
-  }
-  .all-posts-link {
     color: rgb(255, 255, 255);
     font-size: 17px;
     font-family: Courier New;
@@ -249,18 +221,6 @@
     background-color: rgb(0, 0, 0);
   }
   .all-posts-text4 {
-    color: rgb(255, 255, 255);
-    font-size: 17px;
-    font-family: Courier New;
-    background-color: rgb(0, 0, 0);
-  }
-  .all-posts-text5 {
-    color: rgb(255, 255, 255);
-    font-size: 17px;
-    font-family: Courier New;
-    background-color: rgb(0, 0, 0);
-  }
-  .all-posts-link {
     color: rgb(255, 255, 255);
     font-size: 17px;
     font-family: Courier New;
