@@ -91,18 +91,6 @@
   margin-bottom: 10px;
   background-color: rgb(0, 0, 0);
 }
-.longpantsxyz-text13 {
-  color: #ffffff;
-  font-size: 17px;
-  font-family: "Courier New";
-  background-color: rgb(0, 0, 0);
-}
-.longpantsxyz-text16 {
-  color: #ffffff;
-  font-size: 17px;
-  font-family: "Courier New";
-  background-color: rgb(0, 0, 0);
-}
 @media(max-width: 991px) {
   .longpantsxyz-title-date-body {
     left: 0px;
