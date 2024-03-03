@@ -105,19 +105,16 @@
 .all-posts-navlink04 {
   text-decoration: underline;
 }
+.all-posts-text04 {
+  text-decoration: underline;
+}
 .all-posts-navlink05 {
   text-decoration: underline;
 }
 .all-posts-navlink06 {
   text-decoration: underline;
 }
-.all-posts-text06 {
-  text-decoration: underline;
-}
 .all-posts-navlink07 {
-  text-decoration: underline;
-}
-.all-posts-text07 {
   text-decoration: underline;
 }
 .all-posts-navlink08 {
@@ -139,6 +136,18 @@
   text-decoration: underline;
 }
 .all-posts-navlink11 {
+  text-decoration: underline;
+}
+.all-posts-text11 {
+  text-decoration: underline;
+}
+.all-posts-navlink12 {
+  text-decoration: underline;
+}
+.all-posts-text12 {
+  text-decoration: underline;
+}
+.all-posts-navlink13 {
   text-decoration: underline;
 }
 @media(max-width: 991px) {
@@ -236,6 +245,26 @@
     font-size: 17px;
     font-family: Courier New;
   }
+  .all-posts-navlink11 {
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    font-family: Courier New;
+  }
+  .all-posts-text11 {
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    font-family: Courier New;
+  }
+  .all-posts-navlink12 {
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    font-family: Courier New;
+  }
+  .all-posts-text12 {
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    font-family: Courier New;
+  }
 }
 @media(max-width: 767px) {
   .all-posts-header {
@@ -327,6 +356,26 @@
     font-family: Courier New;
   }
   .all-posts-text10 {
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    font-family: Courier New;
+  }
+  .all-posts-navlink11 {
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    font-family: Courier New;
+  }
+  .all-posts-text11 {
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    font-family: Courier New;
+  }
+  .all-posts-navlink12 {
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    font-family: Courier New;
+  }
+  .all-posts-text12 {
     color: rgb(255, 255, 255);
     font-size: 17px;
     font-family: Courier New;
@@ -446,6 +495,30 @@
     background-color: rgb(0, 0, 0);
   }
   .all-posts-text10 {
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    font-family: Courier New;
+    background-color: rgb(0, 0, 0);
+  }
+  .all-posts-navlink11 {
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    font-family: Courier New;
+    background-color: rgb(0, 0, 0);
+  }
+  .all-posts-text11 {
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    font-family: Courier New;
+    background-color: rgb(0, 0, 0);
+  }
+  .all-posts-navlink12 {
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    font-family: Courier New;
+    background-color: rgb(0, 0, 0);
+  }
+  .all-posts-text12 {
     color: rgb(255, 255, 255);
     font-size: 17px;
     font-family: Courier New;
