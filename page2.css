@@ -35,13 +35,13 @@
   font-size: 18px;
   font-family: "Courier New";
 }
+.page2-text01 {
+  text-decoration: underline;
+}
 .page2-navlink {
   text-decoration: underline;
 }
 .page2-navlink1 {
-  text-decoration: underline;
-}
-.page2-navlink2 {
   text-decoration: underline;
 }
 .page2-post-setup {
@@ -89,18 +89,6 @@
   margin-left: 10px;
   margin-right: 10px;
   margin-bottom: 10px;
-  background-color: rgb(0, 0, 0);
-}
-.page2-text13 {
-  color: #ffffff;
-  font-size: 17px;
-  font-family: "Courier New";
-  background-color: rgb(0, 0, 0);
-}
-.page2-text16 {
-  color: #ffffff;
-  font-size: 17px;
-  font-family: "Courier New";
   background-color: rgb(0, 0, 0);
 }
 @media(max-width: 991px) {
