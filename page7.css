@@ -35,13 +35,13 @@
   font-size: 18px;
   font-family: "Courier New";
 }
+.page7-text01 {
+  text-decoration: underline;
+}
 .page7-navlink {
   text-decoration: underline;
 }
 .page7-navlink1 {
-  text-decoration: underline;
-}
-.page7-navlink2 {
   text-decoration: underline;
 }
 .page7-post-setup {
@@ -49,6 +49,7 @@
   width: 100%;
   height: auto;
   display: flex;
+  position: relative;
   align-self: flex-start;
   margin-bottom: 10%;
   flex-direction: column;
