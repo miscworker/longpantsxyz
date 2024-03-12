@@ -34,13 +34,13 @@
   font-size: 18px;
   font-family: "Courier New";
 }
-.error404-text1 {
-  text-decoration: underline;
-}
 .error404-navlink {
   text-decoration: underline;
 }
 .error404-navlink1 {
+  text-decoration: underline;
+}
+.error404-navlink2 {
   text-decoration: underline;
 }
 .error404-post-setup {
