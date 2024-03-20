@@ -35,13 +35,13 @@
   font-size: 18px;
   font-family: "Courier New";
 }
-.underconstruction-text1 {
-  text-decoration: underline;
-}
 .underconstruction-navlink {
   text-decoration: underline;
 }
 .underconstruction-navlink1 {
+  text-decoration: underline;
+}
+.underconstruction-navlink2 {
   text-decoration: underline;
 }
 .underconstruction-post-setup {

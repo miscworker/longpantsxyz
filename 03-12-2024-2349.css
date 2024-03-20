@@ -1,4 +1,4 @@
-.page16-container {
+.page10-container {
   width: 100%;
   display: flex;
   overflow: hidden;
@@ -8,7 +8,7 @@
   justify-content: flex-start;
   background-color: #000000;
 }
-.page16-header {
+.page10-header {
   width: 100%;
   height: 100px;
   position: relative;
@@ -17,7 +17,7 @@
   align-items: center;
   justify-content: flex-start;
 }
-.page16-contact {
+.page10-contact {
   color: rgb(255, 255, 255);
   right: 0px;
   position: absolute;
@@ -27,7 +27,7 @@
   font-family: "Courier New";
   margin-right: 20px;
 }
-.page16-text {
+.page10-text {
   top: 53px;
   color: rgb(255, 255, 255);
   right: 20px;
@@ -35,25 +35,26 @@
   font-size: 18px;
   font-family: "Courier New";
 }
-.page16-navlink {
+.page10-navlink {
   text-decoration: underline;
 }
-.page16-navlink1 {
+.page10-navlink1 {
   text-decoration: underline;
 }
-.page16-navlink2 {
+.page10-navlink2 {
   text-decoration: underline;
 }
-.page16-post-setup {
+.page10-post-setup {
   flex: 0 0 auto;
   width: 100%;
   height: auto;
   display: flex;
+  position: relative;
   align-self: flex-start;
   margin-bottom: 10%;
   flex-direction: column;
 }
-.page16-title-date-body {
+.page10-title-date-body {
   flex: 0 0 auto;
   width: 631px;
   height: min-content;
@@ -66,21 +67,21 @@
   border-width: 3px;
   flex-direction: column;
 }
-.page16-date-posted {
+.page10-date-posted {
   color: rgb(255, 255, 255);
   font-size: 20px;
   margin-top: 10px;
   font-family: "Courier New";
   margin-left: 10px;
 }
-.page16-container1 {
+.page10-container1 {
   flex: 0 0 auto;
   width: 100%;
   display: flex;
   align-items: flex-start;
   flex-direction: column;
 }
-.page16-body {
+.page10-body {
   color: rgb(255, 255, 255);
   font-size: 17px;
   align-self: flex-start;
@@ -92,7 +93,7 @@
   background-color: rgb(0, 0, 0);
 }
 @media(max-width: 991px) {
-  .page16-title-date-body {
+  .page10-title-date-body {
     left: 0px;
     right: 0px;
     width: 80%;
@@ -101,32 +102,32 @@
     margin-right: auto;
     margin-bottom: 20%;
   }
-  .page16-body {
+  .page10-body {
     color: rgb(255, 255, 255);
     font-size: 17px;
     font-family: Courier New;
   }
 }
 @media(max-width: 767px) {
-  .page16-header {
+  .page10-header {
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
   }
-  .page16-title-date-body {
+  .page10-title-date-body {
     width: 90%;
     height: auto;
   }
-  .page16-body {
+  .page10-body {
     color: rgb(255, 255, 255);
     font-size: 17px;
     font-family: Courier New;
   }
 }
 @media(max-width: 479px) {
-  .page16-header {
+  .page10-header {
     padding: var(--dl-space-space-unit);
   }
-  .page16-contact {
+  .page10-contact {
     left: 0px;
     color: rgb(255, 255, 255);
     right: 0px;
@@ -135,11 +136,11 @@
     text-align: center;
     font-family: Courier New;
   }
-  .page16-title-date-body {
+  .page10-title-date-body {
     height: auto;
     margin-right: auto;
   }
-  .page16-body {
+  .page10-body {
     color: rgb(255, 255, 255);
     font-size: 17px;
     font-family: Courier New;
